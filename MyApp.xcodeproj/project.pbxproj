@@ -19,6 +19,7 @@
 		4FD7227C2C04D12200036B5C /* RelocateDragGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7227B2C04D12200036B5C /* RelocateDragGesture.swift */; };
 		4FD7227E2C04D18100036B5C /* SphereAttractionComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7227D2C04D18100036B5C /* SphereAttractionComponent.swift */; };
 		4FD722802C04D19300036B5C /* SphereAttractionSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7227F2C04D19300036B5C /* SphereAttractionSystem.swift */; };
+		4FD722822C04DDE300036B5C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4FD722812C04DDE300036B5C /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		4FD7227B2C04D12200036B5C /* RelocateDragGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelocateDragGesture.swift; sourceTree = "<group>"; };
 		4FD7227D2C04D18100036B5C /* SphereAttractionComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereAttractionComponent.swift; sourceTree = "<group>"; };
 		4FD7227F2C04D19300036B5C /* SphereAttractionSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereAttractionSystem.swift; sourceTree = "<group>"; };
+		4FD722812C04DDE300036B5C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		4FD722502C043DF600036B5C = {
 			isa = PBXGroup;
 			children = (
+				4FD722812C04DDE300036B5C /* README.md */,
 				4FD7225B2C043DF600036B5C /* MyApp */,
 				4FD7225A2C043DF600036B5C /* Products */,
 			);
@@ -169,6 +172,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FD722822C04DDE300036B5C /* README.md in Resources */,
 				4FD722682C043DF700036B5C /* Preview Assets.xcassets in Resources */,
 				4FD722652C043DF700036B5C /* Assets.xcassets in Resources */,
 			);
