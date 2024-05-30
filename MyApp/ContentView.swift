@@ -14,13 +14,13 @@ struct ContentView: View {
     var body: some View {
         GeometryReader3D { geometry in
             RealityView { content in
-                let localFrame: Rect3D = geometry.frame(in: .global)
+                let localFrame: Rect3D = geometry.frame(in: .local)
                 let sceneFrame: BoundingBox = content.convert(localFrame, from: .local, to: .scene)
                 
                 addSpheres(content, sceneFrame: sceneFrame)
                 content.add(containmentCollisionBox)
             } update: { content in
-                let localFrame: Rect3D = geometry.frame(in: .global)
+                let localFrame: Rect3D = geometry.frame(in: .local)
                 let sceneFrame: BoundingBox = content.convert(localFrame, from: .local, to: .scene)
                 
                 containmentCollisionBox.update(sceneFrame)
