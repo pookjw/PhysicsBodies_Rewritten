@@ -25,6 +25,7 @@ struct ContentView: View {
                 
                 containmentCollisionBox.update(sceneFrame)
             }
+            .offset(z: -geometry.size.depth * 0.25)
             .gesture(ForceDragGesture())
 //            .gesture(RelocateDragGesture())
         }
